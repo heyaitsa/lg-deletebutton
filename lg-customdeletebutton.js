@@ -72,7 +72,7 @@
                 that.core.modules.Thumbnail = new $.fn.lightGallery.modules.Thumbnail(that.core.$el);
             } else
                 that.core.destroy();
-
+        return slider_url;
         });
     }
 
