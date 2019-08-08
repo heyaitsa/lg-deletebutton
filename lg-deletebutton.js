@@ -29,7 +29,8 @@
     Delete.prototype.delete = function() {
         var that = this;
         this.core.$outer.find('.deletePicture').on('click', function() {
-
+            var slider_url = (jQuery("#lg-download").attr('href'));
+            console.log(slider_url);
             var elements;
             if (that.core.s.dynamic) {
                 elements = that.core.s.dynamicEl;
